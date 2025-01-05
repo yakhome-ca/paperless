@@ -22,7 +22,7 @@ services:
       - db
       - broker
     ports:
-      - "8000:8000"
+      - "8345:8000"
     volumes:
       - /home/josh/docker/paperless/data:/usr/src/paperless/data
       - /mnt/media/docs:/usr/src/paperless/media
