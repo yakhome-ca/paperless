@@ -28,7 +28,7 @@ services:
       - /mnt/media/docs:/usr/src/paperless/media
       - /home/josh/docker/paperless/export:/usr/src/paperless/export
       - /home/josh/docker/paperless/consume:/usr/src/paperless/consume
-    env_file: compose.env
+    #env_file: compose.env
     environment:
       PAPERLESS_REDIS: redis://broker:6379
       PAPERLESS_DBHOST: db
