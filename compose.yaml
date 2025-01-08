@@ -32,6 +32,7 @@ services:
     environment:
       PAPERLESS_REDIS: redis://broker:6379
       PAPERLESS_DBHOST: db
+      PAPERLESS_DISABLE_REGULAR_LOGIN: true
 
 volumes:
   data:
