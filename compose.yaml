@@ -34,6 +34,7 @@ services:
       PAPERLESS_DBHOST: db
       PAPERLESS_ADMIN_USER: josh
       PAPERLESS_ADMIN_PASSWORD: hRJhvmKS6ivX^y!$
+      PAPERLESS_URL: https://paperless.yakhome.ca
 
 volumes:
   data:
